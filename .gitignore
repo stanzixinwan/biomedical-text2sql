@@ -43,3 +43,7 @@ htmlcov/
 *.sqlite
 *.db
 .cache/
+
+# Cloned external datasets (large; nested .git)
+data/EHRSQL/
+data/ehrsql-2024/
