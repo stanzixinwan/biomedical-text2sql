@@ -1,0 +1,28 @@
+# Core ML / HF stack (text-to-SQL, fine-tuning)
+torch>=2.1.0
+transformers>=4.38.0
+datasets>=2.18.0
+accelerate>=0.27.0
+tokenizers>=0.15.0
+safetensors>=0.4.0
+
+# Parameter-efficient fine-tuning (LoRA / QLoRA)
+peft>=0.10.0
+
+# RAG: embeddings + vector index
+sentence-transformers>=2.6.0
+faiss-cpu>=1.8.0
+
+# Demo
+gradio>=4.44.0
+
+# Notebooks (ipywidgets silences tqdm notebook warning in Jupyter)
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.24.0
+
+# Optional: QLoRA 4-bit on Linux/CUDA — often installed separately; Windows support varies
+# bitsandbytes>=0.43.0
